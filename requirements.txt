@@ -1,0 +1,16 @@
+fastapi>=0.111
+uvicorn[standard]>=0.29 
+python-multipart>=0.0.9
+pillow>=10.3 
+pytesseract>=0.3.13
+faster-whisper>=1.1.1
+soundfile>=0.12
+ctranslate2>=3.22.0
+opencv-python-headless
+--find-links https://www.paddlepaddle.org.cn/whl/mkl/avx/stable.html
+paddlepaddle==2.6.1
+paddleocr==2.7.0
+numpy==1.24.4
+opencv-python==4.8.0.76
+
+# colocar no dockerfile depois: apt install tesseract-ocr tesseract-ocr-por ffmpeg
